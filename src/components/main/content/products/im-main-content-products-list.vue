@@ -7,7 +7,7 @@
         <div class="product-categories">
           <div
               v-for="category in product.productCategories"
-              v-bind:class="category"
+              :class="category"
           >
             <h5></h5>
           </div>
@@ -15,11 +15,11 @@
 
         <div
             class="product-preview"
-            v-bind:style="'background-color: ' + product.backgroundColor + ';'"
+            :style="{ backgroundColor: product.backgroundColor }"
         >
           <div
               class="preview-image"
-              v-bind:style="'background-image: url(/src/assets/images/products-list/' + product.imagePath + ');'"
+              :style="{ backgroundImage: `url(${getImageUrl(`products-list/${product.imagePath}`)})` }"
           ></div>
         </div>
 
@@ -38,7 +38,8 @@
 </template>
 
 <script>
-import {products} from "./products-list/index.js";
+import { products } from "./products-list/index.js";
+import getImageUrl from "../../../mixins/getImageUrl.js";
 
 export default {
   name: "im-main-content-products-list",
@@ -46,6 +47,9 @@ export default {
     return {
       products
     }
+  },
+  methods: {
+    getImageUrl
   }
 }
 </script>
@@ -141,7 +145,6 @@ export default {
           +border-radius(15px)
 
           .preview-image
-            background-image: url("/src/assets/images/products-list/prod1.png")
             width: 100%
             padding-top: 50%
             +background-image-settings()

@@ -32,24 +32,21 @@
 
               <div
                   class="skill-icon"
-                  v-bind:style="'background-image: url(/src/assets/images/svg/' + skill.imagePath + ');'"
+                  :style="{ backgroundImage: `url(${getImageUrl(`svg/${skill.imagePath}`)})` }"
               ></div>
 
               <div class="skill-bar">
                 <div
                     class="progress-bar"
-                    v-bind:style="'background: repeating-linear-gradient( 45deg, '
-                      + skill.skillColors[0]
-                      + ', '
-                      + skill.skillColors[0]
-                      + ' 10px, '
-                      + skill.skillColors[1]
-                      + ' 10px, '
-                      + skill.skillColors[1]
-                      + ' 20px);'
-                      + 'width: '
-                      + skill.progressPercent
-                      + '%;'"
+                    :style="{
+                        background: `repeating-linear-gradient(
+                            45deg,
+                            ${skill.skillColors[0]},
+                            ${skill.skillColors[0]} 10px,
+                            ${skill.skillColors[1]} 10px,
+                            ${skill.skillColors[1]} 20px)`,
+                        width: `${skill.progressPercent}%`
+                    }"
                 ></div>
               </div>
             </li>
@@ -57,15 +54,14 @@
         </div>
       </div>
 
-      <div class="content-image">
-
-      </div>
+      <div class="content-image"></div>
     </div>
   </div>
 </template>
 
 <script>
 import {skills} from "./about/skills-list/index.js";
+import getImageUrl from "../../mixins/getImageUrl.js";
 
 export default {
   name: "im-main-content-about",
@@ -73,6 +69,9 @@ export default {
     return {
       skills
     }
+  },
+  methods: {
+    getImageUrl
   }
 }
 </script>
