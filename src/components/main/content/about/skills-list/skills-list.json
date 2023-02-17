@@ -1,0 +1,41 @@
+[
+  {
+    "skillName": "HTML 5",
+    "imagePath": "htmlIcon.svg",
+    "skillColors": [
+      "#f1662a",
+      "#e44f26"
+    ],
+    "progressPercent": 75
+  },
+
+  {
+    "skillName": "CSS 3",
+    "imagePath": "cssIcon.svg",
+    "skillColors": [
+      "#33a9dc",
+      "#1572b6"
+    ],
+    "progressPercent": 65
+  },
+
+  {
+    "skillName": "JS",
+    "imagePath": "jsIcon.svg",
+    "skillColors": [
+      "#f5de19",
+      "rgb(65, 65, 65)"
+    ],
+    "progressPercent": 60
+  },
+
+  {
+    "skillName": "Vue JS",
+    "imagePath": "vuejsIcon.svg",
+    "skillColors": [
+      "#4dba87",
+      "#435466"
+    ],
+    "progressPercent": 30
+  }
+]

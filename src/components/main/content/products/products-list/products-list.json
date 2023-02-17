@@ -1,0 +1,63 @@
+[
+  {
+    "productName": "Автопортрет",
+    "productCategories": [
+      "html",
+      "css",
+      "js"
+    ],
+    "imagePath": "prod1.png",
+    "backgroundColor": "rgb(112, 215, 255)",
+    "links": {
+      "gitHub": "",
+      "deploy": ""
+    }
+  },
+
+  {
+    "productName": "Винный дом",
+    "productCategories": [
+      "html",
+      "css"
+    ],
+    "imagePath": "prod2.png",
+    "backgroundColor": "rgb(209, 183, 99)",
+    "links": {
+      "gitHub": "",
+      "deploy": ""
+    }
+  },
+
+  {
+    "productName": "Блог о природе",
+    "productCategories": [
+      "html",
+      "css",
+      "scss",
+      "Mobile"
+    ],
+    "imagePath": "prod3.png",
+    "backgroundColor": "rgb(141, 175, 162)",
+    "links": {
+      "gitHub": "",
+      "deploy": ""
+    }
+  },
+
+  {
+    "productName": "Лизинг сервис",
+    "productCategories": [
+      "html",
+      "css",
+      "scss",
+      "js",
+      "Mobile"
+    ],
+    "imagePath": "prod4.png",
+    "backgroundColor": "#FF9514",
+    "links": {
+      "gitHub": "",
+      "deploy": ""
+    }
+  }
+]
