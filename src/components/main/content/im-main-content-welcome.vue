@@ -15,8 +15,7 @@
 
       <div class="button-to-download">
         <h4><a
-            href="public/for-download/GalievRM-portfolio.pdf"
-            download=""
+            href="https://kazan.hh.ru/resume_converter/Галиев%20Ренат%20Маратович.pdf?hash=afff37d4ff095f52350039ed1f6b6f37464372&type=pdf&hhtmSource=resume&hhtmFrom=resume_list"
             title="Скачать портфолио (PDF)"
             target="_blank">
           Скачать портфолио
