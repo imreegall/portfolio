@@ -19,7 +19,7 @@
         >
           <div
               class="preview-image"
-              v-bind:style="'background-image: url(/assets/images/products-list/' + product.imagePath + ');'"
+              v-bind:style="'background-image: url(/src/assets/images/products-list/' + product.imagePath + ');'"
           ></div>
         </div>
 
@@ -141,7 +141,7 @@ export default {
           +border-radius(15px)
 
           .preview-image
-            background-image: url("/assets/images/products-list/prod1.png")
+            background-image: url("/src/assets/images/products-list/prod1.png")
             width: 100%
             padding-top: 50%
             +background-image-settings()
@@ -170,10 +170,10 @@ export default {
               display: block
 
             &.link-to-github:after
-              background-image: url("/assets/images/svg/gitLogo.svg")
+              background-image: url("/src/assets/images/svg/gitLogo.svg")
 
             &.link-to-deploy:after
-              background-image: url("/assets/images/svg/webLogo.svg")
+              background-image: url("/src/assets/images/svg/webLogo.svg")
 
 
 

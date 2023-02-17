@@ -72,7 +72,7 @@
       +border-radius(999px)
 
       .welcome-image
-        background-image: url("/assets/images/svg/boy1.svg")
+        background-image: url("/src/assets/images/svg/boy1.svg")
         width: 64px
         height: 54px
 

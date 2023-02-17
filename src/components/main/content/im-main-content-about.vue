@@ -32,7 +32,7 @@
 
               <div
                   class="skill-icon"
-                  v-bind:style="'background-image: url(/assets/images/svg/' + skill.imagePath + ');'"
+                  v-bind:style="'background-image: url(/src/assets/images/svg/' + skill.imagePath + ');'"
               ></div>
 
               <div class="skill-bar">
@@ -188,7 +188,7 @@ export default {
                   height: 30px
 
       .content-image
-        background-image: url("/assets/images/svg/boy2.svg")
+        background-image: url("/src/assets/images/svg/boy2.svg")
         +background-image-settings(contain)
         display: block
 

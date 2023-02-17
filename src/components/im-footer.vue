@@ -6,7 +6,7 @@
 
         <div class="info-contacts">
           <h4><a rel="nofollow" title="https://kazan.hh.ru/resume/..." target="_blank" href="https://kazan.hh.ru/resume/afff37d4ff095f52350039ed1f6b6f37464372">Моё резюме</a></h4>
-          <h4>+7-(937) 770-86-01</h4>
+          <h4>+7 (937) 770-86-01</h4>
           <h4><a rel="nofollow" title="mailto:imreegall@gmail.com" href="mailto:imreegall@gmail.com">imreegall@gmail.com</a></h4>
         </div>
 
@@ -92,17 +92,17 @@ export default {
               height: 40px
 
           .messengers-vk
-            background-image: url("/assets/images/svg/vkIcon.svg")
+            background-image: url("/src/assets/images/svg/vkIcon.svg")
 
           .messengers-tg
-            background-image: url("/assets/images/svg/telegramIcon.svg")
+            background-image: url("/src/assets/images/svg/telegramIcon.svg")
 
           .messengers-dc
-            background-image: url("/assets/images/svg/discordIcon.svg")
+            background-image: url("/src/assets/images/svg/discordIcon.svg")
 
 
       .footer-image
-        background-image: url("/assets/images/svg/footerTheme.svg")
+        background-image: url("/src/assets/images/svg/footerTheme.svg")
         +background-image-settings()
         +border-radius(40px)
         width: 350px
