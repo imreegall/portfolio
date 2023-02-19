@@ -76,6 +76,11 @@ export default {
           flex-direction: column
           gap: 20px
 
+          a
+            &:hover
+              text-decoration: underline solid $white 1px
+              cursor: pointer
+
         hr
           width: 100%
           height: 3px

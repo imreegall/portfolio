@@ -9,8 +9,8 @@
     "imagePath": "prod1.png",
     "backgroundColor": "rgb(112, 215, 255)",
     "links": {
-      "gitHub": "",
-      "deploy": ""
+      "gitHub": "https://github.com/imreegall/portfolio-prod-selfportrait",
+      "deploy": "https://selfportrait.imreegall.gq/"
     }
   },
 
@@ -23,8 +23,8 @@
     "imagePath": "prod2.png",
     "backgroundColor": "rgb(209, 183, 99)",
     "links": {
-      "gitHub": "",
-      "deploy": ""
+      "gitHub": "https://github.com/imreegall/portfolio-prod-lecorte",
+      "deploy": "https://lecorte.imreegall.gq/"
     }
   },
 
@@ -39,8 +39,8 @@
     "imagePath": "prod3.png",
     "backgroundColor": "rgb(141, 175, 162)",
     "links": {
-      "gitHub": "",
-      "deploy": ""
+      "gitHub": "https://github.com/imreegall/portfolio-prod-discover",
+      "deploy": "https://discover.imreegall.gq/"
     }
   },
 
@@ -56,8 +56,44 @@
     "imagePath": "prod4.png",
     "backgroundColor": "#FF9514",
     "links": {
-      "gitHub": "",
-      "deploy": ""
+      "gitHub": "https://github.com/imreegall/portfolio-prod-leasing",
+      "deploy": "https://leasing.imreegall.gq/"
+    }
+  },
+
+  {
+    "productName": "NFT Коллекция (v.1)",
+    "productCategories": [
+      "html",
+      "css",
+      "sass",
+      "js",
+      "Mobile",
+      "vuejs"
+    ],
+    "imagePath": "prod5.png",
+    "backgroundColor": "#83F84C",
+    "links": {
+      "gitHub": "https://github.com/imreegall/portfolio-prod-NFT-V1",
+      "deploy": "https://nftv1.imreegall.gq/"
+    }
+  },
+
+  {
+    "productName": "NFT Коллекция (v.2)",
+    "productCategories": [
+      "html",
+      "css",
+      "sass",
+      "js",
+      "Mobile",
+      "vuejs"
+    ],
+    "imagePath": "prod6.png",
+    "backgroundColor": "#1cc287",
+    "links": {
+      "gitHub": "https://github.com/imreegall/portfolio-prod-NFT-V2",
+      "deploy": "https://nftv2.imreegall.gq/"
     }
   }
 ]

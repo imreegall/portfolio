@@ -25,11 +25,21 @@
 
         <div class="product-links">
           <div class="link-to-github">
-            <h5>GitHub</h5>
+            <h5><a
+                :href="product.links.gitHub"
+                :title="product.links.gitHub"
+                rel="nofollow"
+                target="_blank"
+
+            >GitHub</a></h5>
           </div>
 
           <div class="link-to-deploy">
-            <h5>Deploy</h5>
+            <h5><a
+                :href="product.links.deploy"
+                :title="product.links.deploy"
+                target="_blank"
+            >Deploy</a></h5>
           </div>
         </div>
       </li>
@@ -139,8 +149,14 @@ export default {
               &:before
                 content: "Mobile"
 
+          .vuejs
+            background-color: #4dba87
+
+            > *
+              &:before
+                content: "VueJS"
+
         .product-preview
-          //background-color: rgba(0, 61, 42, 0.33)
           padding: 30px 15px 20px
           +border-radius(15px)
 
@@ -153,17 +169,19 @@ export default {
         .product-links
           display: flex
           gap: 40px
+          +user-select(none)
 
-          > *
-            display: flex
-            align-items: center
-            gap: 6px
+          a
             text-decoration: underline solid $black 1px
 
             &:hover
               text-decoration: underline solid $black 2px
               cursor: pointer
-              +user-select(none)
+
+          > *
+            display: flex
+            align-items: center
+            gap: 6px
 
             &:after
               +background-image-settings()
